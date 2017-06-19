@@ -5,7 +5,7 @@
      <meta charset="UTF-8">
      <title>Google</title>
      <meta name="description" content="DESCRIPTION">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/search.css">
 
      <!--[if lt IE 9]>
        <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,48 +15,78 @@
  <body>
    <div class="container">
      <div class="top-bar">
-       <a href="gmail.com">Gmail</a>
-       <a href="images.com">Images</a>
-       <div class="options">
-         <img src="images/boxes.jpeg" alt="" class="options">
-       </div>
-       <div class="alerts">
-         <img src="images/bell.jpeg" alt="" class ="alerts">
-       </div>
-       <div class="profile">
-         <img src="images/stefan.jpg" alt="">
-       </div>
-     </div>
 
-     <div class="content">
-       <div class="logo">
+       <div class="top-left">
          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
        </div>
-       <div class="search-bar">
-         <form action="POST">
-           <input type="text" name="search" class="search-text">
-         </form>
+       <div class="top-center">
+         <div class="search-bar">
+           <form action="POST">
+             <input type="text" name="search" class="search-text">
+           </form>
+         </div>
        </div>
-       <br />
-       <div class="search-buttons">
-        <!--
-        <form action="POST" class="search-form">
-          <input type="button" name="Gsearch" value="Google Search" class="under-button" onclick="">
-          <input type="button" name="Lsearch" value="I'm Feeling Lucky" class="under-button" onclick="">
-        </form>
-        -->
+      <div class="top-right">
+
+         <div class="options">
+           <img src="images/boxes.jpeg" alt="" class="options">
+         </div>
+         <div class="alerts">
+           <img src="images/bell.jpeg" alt="" class ="alerts">
+         </div>
+         <div class="profile">
+           <img src="images/stefan.jpg" alt="">
+         </div>
+     </div>
+     </br>
+     <div class="navbar">
+       <div class="left-links">
+         <a href="All" class="link-selected">All</a>
+         <a href="All">Maps</a>
+
+         <a href="All">Videos</a>
+         <a href="All">Images</a>
+         <a href="All">Shopping</a>
+         <a href="All">More</a>
+
+       </div>
+       <div class="right-links">
+         <a href="All">Settings</a>
+         <a href="All">Tools</a>
        </div>
      </div>
-     <div class="bottom-bar">
-       <div class="bottom-left">
-        <a href="advertising">Advertising</a>
-        <a href="advertising">Business</a>
-        <a href="advertising">About</a>
+   </div>
+     <div class="content">
+       <div class="result-time">
+         About 174 Results (0.67seconds)
        </div>
-       <div class="bottom-right">
-         <a href="advertising">Privacy</a>
-         <a href="advertising">Terms</a>
-         <a href="advertising">Settings</a>
+       <br />
+       <div class="result-group">
+        <a href="example.html" class="search-result">Example Google Link</a>
+        <br />
+        <a href="example.html" class="actual-link">example.html</a>
+        <div class="description">
+          This is an example description
+        </div>
+       </div>
+
+
+     </div>
+     <div class="bottom-bar">
+        <div class="bottom-links">
+          <div class="bottom-text-top">
+             <p>30040, Cumming GA - From your search history -
+             <a href="link.html">Use precise location</a>
+             <a href="link.html">Learn more</a>
+           </p>
+          </div>
+          <div class="bottom-text-bottom">
+            <a href="link.html">Help</a>
+            <a href="link.html">Send Feedback</a>
+            <a href="link.html">Privacy</a>
+            <a href="link.html">Terms</a>
+          </div>
+
        </div>
      </div>
    </div>
